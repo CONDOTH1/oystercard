@@ -42,7 +42,7 @@ class Oystercard
   end
 
   def store_journey
-    @journeys << @journey.journey
+    @journeys << @journey
     clear_journey
   end
 
