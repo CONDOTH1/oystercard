@@ -39,6 +39,10 @@ class Oystercard
     @journeys.store_journey
   end
 
+  def log
+    @journeys.journeys
+  end
+
   private
 
   def check_fine
